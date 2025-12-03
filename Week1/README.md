@@ -1,110 +1,119 @@
+<h1 align="center"><strong>Welcome to Week-1!</strong></h1>
 
-<h1><strong>Welcome to Week-1!</strong></h1>
+In Week-1, we’ll cover the basics of **Python**, **NumPy**, **Matplotlib**, and **PyGame** — everything you’ll need before building your Flappy Bird RL environment and Q-Learning agent.
 
+---
 
-In Week-1, we’ll cover the basics of Python, NumPy, Matplotlib, and PyGame — everything you’ll need to start building your Flappy Bird AI from scratch.
+## Goal of this week:
 
-<h2>Our focus this week:</h2>
+1. Get comfortable writing and running Python code  
+2. Learn how to manipulate data using NumPy  
+3. Create simple plots using Matplotlib  
+4. Understand how PyGame works to build interactive games  
 
-1. Get comfortable writing and running Python code.
+---
 
-2. Learn how to manipulate data using NumPy.
+## 🧩 **1. Python Resources**
 
-3. Create simple plots using Matplotlib.
+Throughout this project, we’ll primarily use **Python** as a coding language. These resources will make you familiar with 
 
-4. Understand how PyGame works to build interactive games.
+- Data types & variables  
+- Lists, dictionaries, tuples, sets  
+- Loops & conditionals  
+- Functions & classes  
+- File I/O (reading/writing files)
 
-<h2>🧩 1. Python Resources</h2>
+### 🔗 Recommended Resources
+- 🌐 [W3Schools Python Tutorial](https://www.w3schools.com/python/)  
+- 🎥 [Python Basics Playlist – Tech With Tim](https://youtube.com/playlist?list=PLzMcBGfZo4-mFu00qxl0a67RhjjZj3jXm&feature=shared)
 
-Throughout this project, we’ll primarily use Python. While an in-depth knowledge isn’t required, you should be familiar with: Data types and variables, Lists, dictionaries, tuples, and sets, Loops and conditionals, Functions and classes, File I/O (reading and writing files)
+It is fine to just get a basic idea of this and not go into details of this.
+### 📝 Practice Ideas
+- Write a function that prints numbers divisible by 3 from 1–100  
+- Store player scores in a dictionary and print the highest scorer  
+- Write a program that reads and writes to a text file  
 
-<h3>Recommended Resources:</h3>
+---
 
-🌐 W3Schools Python Tutorial
+## 💻 **2. Google Colab Resources**
 
-🎥 Python Basics Playlist – Tech With Tim
+We’ll use **Google Colab** for notebook-style coding exercises.  
+Colab provides:
 
-<h3>Practice Ideas:</h3>
+- Python notebooks  
+- Free GPUs/TPUs  
+- Easy debugging through code cells  
 
-Write a function that prints numbers divisible by 3 from 1–100.
+🎥 **Guide:** [Google Colab Beginner Tutorial](https://youtu.be/iMlMfrXJYSg?feature=shared)
 
-Create a dictionary to store player scores and print the highest scorer.
+---
 
-Write a program that reads and writes to a text file.
+## 🔢 **3. NumPy Resources**
 
-<h2>💻 2. Google Colab Resources</h2>
+**NumPy** is essential for AI/ML:
 
-We’ll use Google Colab for coding exercises. Colab is a cloud-based Jupyter Notebook service that lets you write and run code in separate cells — perfect for testing and debugging. It even provides free GPUs/TPUs for compute-intensive tasks.
+- Array operations  
+- Linear algebra  
+- Random number generation  
+- Efficient Q-table storage later in RL  
 
-🎥 Google Colab Beginner Guide
+### 🔗 Recommended Resource
+- 🌐 [W3Schools NumPy Tutorial](https://www.w3schools.com/python/numpy/default.asp)
 
-<h2>🔢 3. NumPy Resources</h2>
+### 📝 Practice Ideas
+- Create a 2D array & compute mean, max, min  
+- Generate a random matrix and add two matrices element-wise  
+- Save/load arrays using `np.save()` and `np.load()`  
 
-NumPy (Numerical Python) is the foundation of most AI/ML work. It provides tools for linear algebra, random number generation, and fast array operations.
-You’ll use NumPy to handle Q-tables and perform mathematical operations efficiently.
+---
 
-Recommended Resource:
+## 📊 **4. Matplotlib Resources**
 
-🌐 W3Schools NumPy Tutorial
+We'll use **Matplotlib** to visualize training:
 
-Practice Ideas:
+- Episode rewards  
+- Moving averages  
+- Q-value trends  
 
-Create a 2D array and find its mean, max, and min.
+### 🔗 Recommended Resource
+- 🌐 [Matplotlib Official Website](https://matplotlib.org/)
 
-Generate a random matrix and perform element-wise addition.
+### 📝 Practice Ideas
+- Plot `y = x²` for `x = 0…10`  
+- Plot a random reward curve  
+- Label axes, add titles, legends  
 
-Save and load arrays using np.save() and np.load().
+---
 
-<h2>📊 4. Matplotlib Resources</h2>
+## 🎮 **5. PyGame Resources**
 
-Matplotlib is Python’s go-to plotting library.
-You’ll use it later to visualize training progress (e.g., average reward per episode).
+We’ll use **PyGame** to build the Flappy Bird environment.  
+You’ll learn:
 
-Recommended Resource:
+- The game loop (update → draw → events)  
+- Bird physics (gravity, flap velocity)  
+- Obstacle movement  
+- Collision detection  
 
-🌐 Matplotlib Official Website
+### 🔗 Recommended Resources
+- 🎥 [PyGame Tutorial for Beginners – freeCodeCamp](https://youtu.be/FfWpgLFMI7w?feature=shared)  
+- 🌐 [PyGame Documentation](https://www.pygame.org/docs/)
 
-Practice Ideas:
+### 📝 Practice Ideas
+- Draw a moving circle ("bird")  
+- Implement gravity + flap  
+- Add rectangles as obstacles and detect collisions  
 
-Plot a line graph of y = x² for x from 0 to 10.
+---
 
-Plot a random reward curve to simulate training progress.
-
-Label your axes and add a legend/title to the plot.
-
-<h2>🎮 5. PyGame Resources</h2>
-
-PyGame allows you to build simple 2D games and is what we’ll use to create the Flappy Bird environment.
-You’ll learn about:
-
-The game loop (update → draw → event handling)
-
-Keyboard inputs and physics (gravity, flap motion)
-
-Collision detection
-
-Recommended Resources:
-
-🎥 PyGame Tutorial for Beginners – freeCodeCamp
-
-🌐 PyGame Documentation
-
-Practice Ideas:
-
-Draw a moving circle (“bird”) on the screen.
-
-Implement basic gravity — bird falls down unless you press a key.
-
-Add simple obstacles (rectangles) and detect collisions.
-
-<h1>✅ End of Week-1 Goals</h1>
+<h1 align="center">✅ End of Week-1 Goals</h1>
 
 By the end of this week, you should be able to:
 
-1. Write Python scripts and functions confidently.
+1. Write Python scripts & functions confidently  
+2. Use NumPy for basic operations  
+3. Visualize data using Matplotlib  
+4. Build a simple interactive PyGame window  
 
-2. Use NumPy for basic array operations.
+---
 
-3. Visualize data using Matplotlib.
-
-4. Create a simple interactive PyGame window.
