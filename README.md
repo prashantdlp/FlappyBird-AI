@@ -10,4 +10,5 @@ FlappyBird-AI/
 ├── week-1/ # Assignment solution week1 
 ├── week-2/ # Assignment Solution week2
 ├── mid-term.pdf # Mid-Term Report
+├── end-term report.pdf # End-Term Report
 ├── README.md # Project overview
