@@ -8,6 +8,6 @@ The complete gameplay demonstration video was approximately **863 MB**, which ex
 The video showcases:
 
 * PPO agent gameplay
-* Consistent scores ranging from **60–150**
+* Score of **49**, which is on its lower bound side, max score i have seen is 149. 
 * Comparison with average human performance (~15 points)
 * Overall behavior and stability of the trained reinforcement learning agent
