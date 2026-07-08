@@ -1,0 +1,1 @@
+Either Download PDF or use web version of vs code with web compatible pdf viewer extensions to read the contents of PDF files.
