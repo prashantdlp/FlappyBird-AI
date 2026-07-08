@@ -3,7 +3,7 @@
 The complete gameplay demonstration video was approximately **863 MB**, which exceeds GitHub's recommended file size limits for repositories. To keep the repository lightweight and easy to clone, the full demonstration has been uploaded to YouTube instead.
 
 📺 **Watch the complete demo here:**
-**YouTube:** *[https://youtu.be/NOLdusR4shw]* (Please ignore Background Music)
+**YouTube:** *[https://youtu.be/NOLdusR4shw]* (Please ignore Background Music, i was listening it while recording my screen so now that music is also part of video)
 
 The video showcases:
 
